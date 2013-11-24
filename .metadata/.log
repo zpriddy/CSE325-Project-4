@@ -1,0 +1,39 @@
+!SESSION 2013-10-26 19:24:39.103 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-26 19:24:52.651
+!MESSAGE NLS unused message: // in: org.eclipse.rse.internal.core.messages
+!SESSION 2013-10-26 19:25:21.000 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-26 19:25:50.751
+!MESSAGE NLS unused message: // in: org.eclipse.rse.internal.core.messages
+!SESSION 2013-10-26 19:27:46.830 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\CSE325_workspaces\CSE325_Projects\Project4
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-26 19:27:52.034
+!MESSAGE NLS unused message: // in: org.eclipse.rse.internal.core.messages
+!SESSION 2013-10-26 19:32:57.136 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-26 19:33:12.529
+!MESSAGE NLS unused message: // in: org.eclipse.rse.internal.core.messages
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-10-26 19:35:37.356
+!MESSAGE Indexed 'Project4' (6 sources, 68 headers) in 0.95 sec: 371 declarations; 867 references; 6 unresolved inclusions; 11 syntax errors; 255 unresolved names (17.08%)

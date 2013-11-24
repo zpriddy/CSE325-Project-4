@@ -1,0 +1,19 @@
+{
+        "folders":
+        [
+                {
+                        "path": "/Users/zpriddy/Documents/CSE325_Projects/Project4"
+                },
+                {
+                        "path": "/Users/zpriddy/Documents/CSE325_Projects/MCF52259_INCLUDES"
+                }
+        ],
+        "settings":
+        {
+                "sublimeclang_options":
+                [
+                        "-I/Users/zpriddy/Documents/CSE325_Projects/Project4/**",
+                        "-I/Users/zpriddy/Documents/CSE325_Projects/**"
+                ]
+        }
+}

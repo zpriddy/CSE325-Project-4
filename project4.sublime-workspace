@@ -1,0 +1,2098 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"int_",
+				"int_config(int p_src, int p_level, int p_priority, int_isr p_isr)	void"
+			],
+			[
+				"MCF_PIT_PCSR_P",
+				"MCF_PIT_PCSR_PRE	macro"
+			],
+			[
+				"BLUE",
+				"BLUE_RGB_G	int"
+			],
+			[
+				"pwm_ch",
+				"pwm_channel_set_duty(int p_channel, int p_duty)	void"
+			],
+			[
+				"C",
+				"C_BLUE	macro"
+			],
+			[
+				"RGB_LED",
+				"RGB_LED	volatile int"
+			],
+			[
+				"oct_",
+				"oct_rgb_led_on(gpio_pin_t)	void"
+			],
+			[
+				"oct_rgb_led_",
+				"oct_rgb_led_all_off()	void"
+			],
+			[
+				"oct_rgb",
+				"oct_rgb_led_off(gpio_pin_t)	void"
+			],
+			[
+				"pwm_ini",
+				"pwm_init_check()	void"
+			],
+			[
+				"pwm_se",
+				"pwm_channel_set_duty(int p_channel, int p_duty)	void"
+			],
+			[
+				"del",
+				"dtim0_busy_delay_ms(int p_msecs)	void"
+			],
+			[
+				"de",
+				"dtim0_busy_delay_ms(int p_msecs)	void"
+			],
+			[
+				"pwm_en",
+				"pwm_channel_enable(int p_channel)	void"
+			],
+			[
+				"pwm_dis",
+				"pwm_channel_disable_all()	void"
+			],
+			[
+				"pwm_chan",
+				"pwm_channel_enable(int p_channel)	void"
+			],
+			[
+				"pwm_cha",
+				"pwm_channel_reset_count(int p_channel)	void"
+			],
+			[
+				"pwm_6",
+				"pwm_6_pin	gpio_pin_t"
+			],
+			[
+				"pwm_5",
+				"pwm_5_pin	gpio_pin_t"
+			],
+			[
+				"pwm_4",
+				"pwm_4_pin	gpio_pin_t"
+			],
+			[
+				"pwm_",
+				"pwm_clk_a	pwm_clk_t"
+			],
+			[
+				"pwm_clk",
+				"pwm_clk(pwm_pin_t p_pwm_pin, pwm_clk_t p_clk)	void"
+			],
+			[
+				"pwm_pol",
+				"pwm_pol_high	pwm_pol_t"
+			],
+			[
+				"pwm_re",
+				"pwm_red_pin	gpio_pin_t"
+			],
+			[
+				"pwm_ca",
+				"pwm_cae(pwm_pin_t p_pwm_pin, int p_cae)	void"
+			],
+			[
+				"p_p",
+				"p_pwm_pin	int"
+			],
+			[
+				"MCF_PWM_PWMC",
+				"MCF_PWM_PWMCLK	macro"
+			],
+			[
+				"pwm",
+				"pwm_clk_sb	pwm_clk_t"
+			],
+			[
+				"pw",
+				"pwm_clk_sa	pwm_clk_t"
+			],
+			[
+				"MCF_PWM_PWME",
+				"MCF_PWM_PWME	macro"
+			],
+			[
+				"pwm_colo",
+				"pwm_color_blue	pwm_color_t"
+			],
+			[
+				"MCF_PWM_PWME_PWM",
+				"MCF_PWM_PWME_PWME4	macro"
+			],
+			[
+				"pwm_g",
+				"pwm_green_pin	gpio_pin_t"
+			],
+			[
+				"pwm_bl",
+				"pwm_blue_pin	gpio_pin_t"
+			],
+			[
+				"gpio_pin",
+				"gpio_pin_state_low	gpio_pin_state_t"
+			],
+			[
+				"gpio_da",
+				"gpio_data_dir_out	gpio_data_dir_t"
+			],
+			[
+				"gpio_fun",
+				"gpio_funct_tertiary	gpio_funct_t"
+			],
+			[
+				"gpio",
+				"gpio_pin_2	gpio_pin_t"
+			],
+			[
+				"gpio_po",
+				"gpio_port_an	gpio_port_t"
+			],
+			[
+				"se",
+				"set_signal_duty_cycle(int channel, int duty_value)	void"
+			],
+			[
+				"dti",
+				"dtim0_busy_delay_ms(int p_msecs)	void"
+			],
+			[
+				"dtim",
+				"dtim0_busy_delay_ms(int p_msecs)	void"
+			],
+			[
+				"uc_di",
+				"uc_dipsw_get_state(gpio_pin_t p_switch)	gpio_pin_state_t"
+			],
+			[
+				"uc_push",
+				"uc_pushb_debounce(gpio_pin_t p_pin)	void"
+			],
+			[
+				"rgb",
+				"rgb_comm_port	gpio_port_t"
+			],
+			[
+				"rgb_led_2_co",
+				"rgb_led_2_comm	gpio_pin_t"
+			],
+			[
+				"rgb_",
+				"rgb_led_1_comm	gpio_pin_t"
+			],
+			[
+				"uc_led",
+				"uc_led_all_off()	void"
+			],
+			[
+				"uc_led_al",
+				"uc_led_all_on()	void"
+			],
+			[
+				"pit_in",
+				"pit_int_config(pit_timer_t p_timer, int p_source, int p_level, int p_priority, int_isr p_isr)	void"
+			],
+			[
+				"MCF_PIT_PMR",
+				"MCF_PIT_PMR_PM	macro"
+			],
+			[
+				"pit_en",
+				"pit_enable_int(pit_timer_t p_timer)	void"
+			],
+			[
+				"p_ti",
+				"p_timer	pit_timer_t"
+			],
+			[
+				"pri",
+				"priority	int"
+			],
+			[
+				"init",
+				"int_config(int p_src, int p_level, int p_priority, int_isr p_isr)	void"
+			],
+			[
+				"p_timer",
+				"pit_timer_t	typedef"
+			],
+			[
+				"gp",
+				"gpio_pin_6	gpio_pin_t"
+			],
+			[
+				"gpio_pi",
+				"gpio_pin_state_t	typedef"
+			],
+			[
+				"pit_ini",
+				"pit_init_0_1(int, int, int_isr, int_isr)	void"
+			],
+			[
+				"gpio_pin_s",
+				"gpio_pin_state_low	gpio_pin_state_t"
+			],
+			[
+				"gpio_s",
+				"gpio_pin_state_low	gpio_pin_state_t"
+			],
+			[
+				"gpio_",
+				"gpio_port_get_pin_state(gpio_port_t p_port, gpio_pin_t p_pin)	gpio_pin_state_t"
+			],
+			[
+				"RGB_WH",
+				"RGB_WHITE	int [6]"
+			],
+			[
+				"pit_",
+				"pit_timer_t	typedef"
+			],
+			[
+				"pit_t",
+				"pit_timer_0	pit_timer_t"
+			],
+			[
+				"p_t",
+				"p_timer	pit_timer_t"
+			],
+			[
+				"g_",
+				"g_tiemr1_callback	int_isr"
+			],
+			[
+				"pti",
+				"pit_timer_1	pit_timer_t"
+			],
+			[
+				"int",
+				"int_isr	typedef"
+			],
+			[
+				"MCF_PIT_PC",
+				"MCF_PIT_PCSR	macro"
+			],
+			[
+				"pit_tim",
+				"pit_timer_t	typedef"
+			],
+			[
+				"pit",
+				"pit_timer_0	pit_timer_t"
+			],
+			[
+				"g",
+				"gpio_pin_1	gpio_pin_t"
+			],
+			[
+				"uc",
+				"uc_dipsw_1	gpio_pin_t"
+			],
+			[
+				"ge",
+				"get_capacity()	int"
+			],
+			[
+				"get",
+				"get_element(int n)	Element"
+			],
+			[
+				"In",
+				"IncreaseKeyHeap(HEAP &, int, int)	void"
+			],
+			[
+				"heap",
+				"heap_created	bool"
+			],
+			[
+				"he",
+				"heap_created	bool"
+			],
+			[
+				"sw",
+				"swap_with_parent(int node)	void"
+			],
+			[
+				"s",
+				"set_element(int node, Element i_element)	void"
+			],
+			[
+				"rig",
+				"right_node	int"
+			],
+			[
+				"le",
+				"left_node	int"
+			],
+			[
+				"la",
+				"largest	int"
+			],
+			[
+				"lar",
+				"largest_element	Element"
+			],
+			[
+				"righ",
+				"right_key	int"
+			],
+			[
+				"left_",
+				"left_node	int"
+			],
+			[
+				"right",
+				"right_node	int"
+			],
+			[
+				"get_r",
+				"get_right_child(int node)	int"
+			],
+			[
+				"get_l",
+				"get_left_child(int node)	int"
+			],
+			[
+				"te",
+				"test	int"
+			],
+			[
+				"i",
+				"is_leaf_element(int node)	bool"
+			],
+			[
+				"Ins",
+				"InsertHeap(HEAP &, int)	void"
+			],
+			[
+				"ele",
+				"is_element(int node)	bool"
+			],
+			[
+				"is",
+				"is_leaf_element(int node)	bool"
+			],
+			[
+				"cu",
+				"current_right_key	int"
+			],
+			[
+				"cur",
+				"current_parent_key	int"
+			],
+			[
+				"fu",
+				"furthest_left_node	int"
+			],
+			[
+				"set",
+				"set_element(int node, Element i_element)	void"
+			],
+			[
+				"He",
+				"Heapify(HEAP &i_heap, int element)	void"
+			],
+			[
+				"old",
+				"old_left	Element"
+			],
+			[
+				"Inser",
+				"InsertToHeap(HEAP &, Element)	void"
+			],
+			[
+				"ha",
+				"has_element_right(int node)	bool"
+			],
+			[
+				"i_",
+				"i_heap	HEAP"
+			],
+			[
+				"h",
+				"has_element_right(int node)	bool"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Project_Headers/oct_rgb_led.h",
+			"settings":
+			{
+				"buffer_size": 790,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sources/oct_rgb_led.c",
+			"settings":
+			{
+				"buffer_size": 3665,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "//*******************************************************************************************************\n// pwm.c\n//\n// DESCRIPTION:\n//\n// AUTHORS:\n//  Abdulla Al Braiki (ayalbrai@asu.edu)\n//  Zachary Priddy (zpriddy@asu.edu)\n//\n// Computer Science & Engineering\n// Arizona State University\n// Tempe, AZ 85287-8809\n//\n// Date: Oct 24, 2013\n//\n//********************************************************************************************************\n\n#include \"common.h\"\n\nvoid pwm_channel_disable(int p_channel) {\n	MCF_PWM_PWME &= ~(0x1 << p_channel);\n}\n\nvoid pwm_channel_enable(int p_channel) {\n	MCF_PWM_PWME |= 0x1 << p_channel;\n}\n\nvoid pwm_channel_disable_all() {\n	MCF_PWM_PWME &= 0;\n}\n\nvoid pwm_channel_init(int p_channel) \n{\n	MCF_PWM_PWME &= ~(0x1 << p_channel); 		// 1. Clear PWME[PWMEn] to disable channel n during configuration.\n	MCF_PWM_PWMPOL |= (0x1 << p_channel); 		// 2. Set PWMPOL[PPOLn] to select high polarity.\n	MCF_PWM_PWMCLK &= ~(0x1 << p_channel); 		//3. Clear or set PWMCLK[PCKA] to select clock A or clock SA for the channel 0 counter.\n	MCF_PWM_PWMPRCLK &= ~(0b01110111); 			//4. Write the selected clock A prescaler value to PWMPRCLK[PCKA].\n	MCF_PWM_PWMPRCLK |= 0b00010001;\n	//MCF_PWM_PWMPRCLK |= 0b10011001;\n	MCF_PWM_PWMCAE &= ~(0x1 << p_channel); 		// 5. Clear PWMCAE[CAEn] to select left-alignment.\n	MCF_PWM_PWMSCLA = 0x99; 					//6. If clock SA is being used write the selected scale value to PWMSCLA[SCALEA].\n	MCF_PWM_PWMSCLB = 0x99;\n	MCF_PWM_PWMCNT(p_channel) &= ~(0x3 << p_channel * 2); //7. Write 0x00 to PWMCNTn to reset the counter to 0.\n	MCF_PWM_PWMPER(p_channel) = 0x63; 			//8. Write the desired period to PWMPERn, see Eqn. 31-7.\n	MCF_PWM_PWMDTY(p_channel) = 0x31; 			//9. Write the desired duty to PWMDTYn, see Eqn. 31-8.\n\n	// Enable ports for PWM output\n	switch (p_channel) {\n	case 4:\n		gpio_port_init(gpio_port_tc, gpio_pin_2, gpio_funct_tertiary,\n				gpio_data_dir_x, gpio_pin_state_x);\n		break;\n	case 5:\n		gpio_port_init(gpio_port_ta, gpio_pin_2, gpio_funct_tertiary,\n				gpio_data_dir_x, gpio_pin_state_x);\n		break;\n	case 6:\n		gpio_port_init(gpio_port_tc, gpio_pin_3, gpio_funct_tertiary,\n				gpio_data_dir_x, gpio_pin_state_x);\n		break;\n\n	}\n	pwm_channel_enable(p_channel);\n\n	MCF_PWM_PWME |= 0x1 << p_channel; // 10. Set PWM[PWMEn] to enable channel n and output the signal\n\n}\n\nvoid pwm_channel_set_duty(int p_channel, int p_duty) {\n	p_duty = 100 - p_duty;\n	MCF_PWM_PWMDTY(p_channel) = (uint8) p_duty;\n\n}\n\nvoid pwm_channel_set_frequency() {	\n	\n}\n\nvoid pwm_channel_start_output(int p_channel) {\n	MCF_PWM_PWME |= 0x1 << p_channel;\n}\n",
+			"file": "Sources/pwm.c",
+			"file_size": 2572,
+			"file_write_time": 1383115064000000,
+			"settings":
+			{
+				"buffer_size": 2573,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sources/pit.c",
+			"settings":
+			{
+				"buffer_size": 3328,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Project_Headers/pwm.h",
+			"settings":
+			{
+				"buffer_size": 1247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ";***********************************************************************************************************************************\n; FILE: int.s\n;\n; DESCRIPTION\n; Functions for handling interrupt sources.\n;\n; AUTHORS\n; Kevin R. Burger (burgerk@asu.edu)\n; Computer Science & Engineering\n; Arizona State University\n; Tempe, AZ 85287-8809\n; http://www.devlang.com\n;***********************************************************************************************************************************\n#include \"global.inc\"\n\n;===================================================================================================================================\n; External Global Variable Declarations\n;===================================================================================================================================\n\n.extern ___VECTOR_RAM  ; ___VECTOR_RAM is defined in the linker command file (.lcf) to be 0x2000_0000.\n\n;===================================================================================================================================\n; Public Function Declarations\n;===================================================================================================================================\n\n.global _int_config\n.global _int_inhibit_all\n.global _int_mask_src\n.global _int_unmask_src\n.global _int_uninhibit_all\n\n;===================================================================================================================================\n; Private Global Constants\n;===================================================================================================================================\n\n; These are the INTC0 registers we will be using.\nINT0_BASE      .equ IPSBAR + $000C00 \nINT0_ICR_BASE  .equ INT0_BASE + $0040  ; The ICRn regs are all 8-bits\nINT0_IMRH      .equ INT0_BASE + $0008  ; 32-bit reg\nINT0_IMRL      .equ INT0_BASE + $000C  ; 32-bit reg\nINT0_IPRH      .equ INT0_BASE + $0000  ; 32-bit reg\nINT0_IPRL      .equ INT0_BASE + $0004  ; 32-bit reg\n\n;===================================================================================================================================\n; Function Definitions\n;===================================================================================================================================\n\n.text\n\n;-----------------------------------------------------------------------------------------------------------------------------------\n; FUNCTION: __declspec(standard_abi) void int_config(int p_src, int p_level, int p_priority, int_isr p_isr)\n;\n; INPUT PARAMS\n; p_src         8(a6)  The interrupt source in [1, 63].\n; p_level      12(a6)  The level of the interrupt in [1, 7].\n; p_priority   16(a6)  The priority of the interrupt in [0, 7].\n; p_isr        20(a6)  The address of the ISR.\n;\n; DESCRIPTION\n; Places the address of the ISR (p_isr) for the interrupt with source number p_src into the exception vector table at the proper\n; offet. Configures the appropriate ICR register with the interrupt level and priority.\n;\n; RETURNS\n; Nothing\n;\n; REGISTER USAGE\n; d0-d1, a0\n;-----------------------------------------------------------------------------------------------------------------------------------\n_int_config:\n; Create stack frame. Don't allocate space for any local variables.'\n     link      a6, #0\n\n; p_src is at 8(a6). The address in the exception vector table for interrupt source p_src is at offset 4 x (p_src + 64) from the\n; beginning of the table. Load p_src into d0 and then calculate the offset.\n\n; ___VECTOR_RAM[p_src + 64] = p_isr\n    move.l     8(a6), d0               ; d0 <- p_src\n    addi.l     #64, d0                 ; d0 <- p_src + 64\n    lsl.l      #2, d0                  ; d0 <- 4 x (p_src + 64)\n    lea        ___VECTOR_RAM, a0       ; a0 <- base address of the exception vector table\n    adda.l     d0, a0                  ; a0 <- ___VECTOR_RAM + 4 x (p_src + 64)\n    move.l     20(a6), (a0)            ; ___VECTOR_RAM[p_src + 64] = p_isr\n\n; *(ICR_BASE + p_src) = p_level << 3 | p_priority\n    lea        INT0_ICR_BASE, a0       ; a0 <- base address of ICRn registers.\n    adda.l     8(a6), a0               ; a0 <- &(ICR_BASE + p_src)\n    move.l     12(a6), d0              ; d0 <- p_level\n    lsl.l      #3, d0                  ; d0 <- p_level << 3\n    move.l     16(a6), d1              ; d1 <- p_priority\n    or.l       d1, d0                  ; d0 <- p_level << 3 | p_priority\n    move.b     d0, (a0)                ; *(ICR_BASE + p_src) = p_level << 3 | p_priority\n\n; int_unmask_src(p_src)\n    push       8(a6)                   ; Push p_src\n    jsr        _int_unmask_src         ; int_unmask_src(p_src)\n\n; Destroy stack frame and return.\n    unlk       a6\n    rts\n\n;-----------------------------------------------------------------------------------------------------------------------------------\n; FUNCTION: __declspec(standard_abi) void int_inhibit_all()\n;\n; INPUT PARAMS\n; None\n;\n; DESCRIPTION\n; Writes 111 to SR[I] to inhibit interrupts at all levels (except for the edge-sensitive level 7 requests which cannot be masked).\n; Also sets IMRL[MASKALL] to mask interrupts from all sources.\n;\n; RETURNS\n; Nothing\n;\n; REGISTER USAGE\n; d0, SR\n;-----------------------------------------------------------------------------------------------------------------------------------\n _int_inhibit_all:\n; Create stack frame.\n    link       a6, #0\n\n; SR[I] <- 0\n    move.w     SR, d0\n    ori.l      #$0700, d0\n    move.w     d0, SR\n\n; INT0_IMRL = 1\n    lea        INT0_IMRL, a0\n    moveq.l    #1, d0\n    move.l     d0, (a0)\n\n; Destroy stack frame and return.\n    unlk       a6\n    rts\n\n;-----------------------------------------------------------------------------------------------------------------------------------\n; FUNCTION: __declspec(standard_abi) void int_mask_src(int p_src)\n;\n; INPUT PARAMS\n; p_src  8(a6)  Interrupt source\n;\n; DESCRIPTION\n; Writes a 1 to the IMRH or IMRL register to mask interrupts from the interrupt with source number p_src. If p_src > 31 we write 1\n; to register IMRH. If p_src <= 31 we write 1 to register IMRL.\n;\n; RETURNS\n; Nothing\n;\n; REGISTER USAGE\n; d0-d1, a0\n;-----------------------------------------------------------------------------------------------------------------------------------\n _int_mask_src:\n; Create stack frame.\n    link       a6, #0\n\n; If p_src > 31 then...\n    move.l     8(a6), d0             ; d0 <- p_src\n    cmpi.l     #31, d0               ; is d0 <= 31?\n    ble.l      @write_imrl           ; Yes, skip to false-clause.\n\n; INT0_IMRH |= 1 << (p_src - 32)\n    subi.l     #32, d0               ; d0 <- p_src - 32\n    moveq.l    #1, d1                ; d1 <- 1\n    lsl.l      d0, d1                ; d1 <- 1 << (p_src - 32)\n    lea        INT0_IMRH, a0         ; a0 <- &INT0_IMRH\n    or.l       d1, (a0)              ; INT0_IMRH |= 1 << (p_src - 32)\n    bra        @endif                ; Skip over false-clause.\n\n@write_imrl:\n; INT0_IMRL |= (1 << p_src) & 0xFFFFFFFE\n    move.l     8(a6), d0             ; d0 <- p_src\n    moveq.l    #1, d1                ; d1 <- 1 \n    lsl.l      d0, d1                ; d1 <- 1 << p_src\n    andi.l     #$FFFFFFFE, d1        ; d1 <- (1 << p_src) & 0xFFFFFFFE (clears bit 0)\n    lea        INT0_IMRL, a0         ; a0 <- &INT0_IMRL\n    or.l       d1, (a0)              ; INT0_IMRL |= (1 << p_src) & 0xFFFFFFFE\n\n@endif:\n; Destroy stack frame and return.\n    unlk       a6\n    rts\n\n;-----------------------------------------------------------------------------------------------------------------------------------\n; FUNCTION: __declspec(standard_abi) void int_unmask_src(int p_src)\n;\n; INPUT PARAMS\n; p_src  8(a6)  Interrupt source\n;\n; DESCRIPTION\n; Writes a 0 to the IMRH or IMRL register to unmask interrupts from the interrupt with source number p_src.\n;\n; RETURNS\n; Nothing\n;\n; REGISTER USAGE\n; d0-d1, a0\n;-----------------------------------------------------------------------------------------------------------------------------------\n_int_unmask_src:\n; Create stack frame.\n    link       a6, #0\n\n; If p_src > 31 then...\n    move.l     8(a6), d0             ; d0 <- p_src\n    cmpi.l     #31, d0               ; is d0 <= 31?\n    ble        @write_imrl           ; Yes, skip to false-clause.\n\n; INT0_IMRH &= ~(1 << (p_src - 32))\n    subi.l     #32, d0               ; d0 <- p_src - 32\n    moveq.l    #1, d1                ; d1 <- 1\n    lsl.l      d0, d1                ; d1 <- 1 << (p_src - 32)\n    not.l      d1                    ; d1 <- ~(1 << (p_src - 32))\n    lea        INT0_IMRH, a0         ; a0 <- &INT0_IMRH\n    and.l      d1, (a0)              ; INT0_IMRH &= ~(1 << (p_src - 32))\n    bra        @endif                ; Skip over false-clause.\n\n@write_imrl:\n; IMRL &= ~(1 << p_src) & 0xFFFFFFFE\n    move.l     8(a6), d0             ; d0 <- p_src\n    moveq.l    #1, d1                ; d1 <- 1\n    lsl.l      d0, d1                ; d1 <- 1 << p_src\n    not.l      d1                    ; d1 <- ~(1 << p_src)\n    andi.l     #$FFFFFFFE, d1        ; d1 <- ~(1 << p_src) & 0xFFFFFFFE (clears bit 0)\n    lea        INT0_IMRL, a0         ; a0 <- &INT0_IMRL\n    and.l      d1, (a0)              ; INT0_IMRL &= ~(1 << p_src) & 0xFFFFFFFE\n\n@endif:\n; Destroy stack frame and return.\n    unlk       a6\n    rts\n\n;-----------------------------------------------------------------------------------------------------------------------------------\n; FUNCTION: __declspec(standard_abi) void int_uninhibit_all()\n;\n; INPUT PARAMS\n; None\n;\n; DESCRIPTION\n; Writes 000 to SR[I] to permits interrupts at all levels.\n;\n; RETURNS\n; Nothing\n;\n; REGISTER USAGE\n; d0, SR\n;-----------------------------------------------------------------------------------------------------------------------------------\n _int_uninhibit_all:\n; Create stack frame.\n    link       a6, #0\n\n; SR[I] <- 0\n    move.w     SR, d0\n    andi.l     #$F8FF, d0\n    move.w     d0, SR\n\n; Destroy stack frame and return.\n    unlk       a6\n    rts",
+			"file": "Projects_Includes/int.s",
+			"file_size": 9929,
+			"file_write_time": 1383162793000000,
+			"settings":
+			{
+				"buffer_size": 9930,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"clan",
+				"Preferences: SublimeClang Settings – Default"
+			],
+			[
+				"buil",
+				"Build: Cancel"
+			],
+			[
+				"Ctags",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"repl run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"subl",
+				"SublimeREPL: Python"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"gi",
+				"Git: Merge Branch"
+			],
+			[
+				"clip",
+				"Clipboard History"
+			],
+			[
+				"codei",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"PA",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zpriddy/Documents/CSE325_Projects/Project4/project4.sublime-project",
+		"/Users/zpriddy/Documents/CSE325_Projects/Project4/Projects_Includes/gpt.h",
+		"/Users/zpriddy/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/FC76335F-AFE1-40FC-8786-8E1D75BD90C1/pwm.c",
+		"/Users/zpriddy/Documents/CSE325_Projects/Project4/Projects_Includes/global.inc",
+		"/Users/zpriddy/Documents/CSE325_Projects/Project4/Projects_Includes/gpio.inc",
+		"/Users/zpriddy/Documents/CSE325_Projects/Project4/Project_Headers/uc_pushb.h",
+		"/Users/zpriddy/Documents/CSE325_Projects/Project4/Projects_Includes/int.s",
+		"/Users/zpriddy/Documents/CSE325_Projects/Project4/Sources/pit.c",
+		"/Users/zpriddy/Documents/CSE325_Projects/Project4/Project_Headers/uc_dipsw.h",
+		"/Users/zpriddy/Documents/CSE325_Projects/Project4/Project_Headers/exceptions.h",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/User/C.sublime-settings",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/CTags/CTags.sublime-settings",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE325/project2.sublime-project",
+		"/Users/zpriddy/Desktop/test.py",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/Pylinter/Pylinter.sublime-settings",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/User/Pylinter.sublime-settings",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/GitHub/CSE310-Project2/fileio.cpp",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/GitHub/CSE310-Project2/README",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/GitHub/CSE310-Project2/debug.h",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/GitHub/CSE310-Project2/debug.cpp",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/GitHub/CSE310-Project2/heap.h",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/GitHub/CSE310-Project2/heap.cpp",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/GitHub/CSE310-Project2/Makefile",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/GitHub/CSE310-Project2/heap.d",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/GitHub/CSE310-Project2/Notes",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/Project2/project2",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/Project2/nbproject/Makefile-impl.mk",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/Project2/nbproject/configurations.xml",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/Project2/nbproject/Makefile-variables.mk",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/zpriddy/Desktop/untitled.sublime-project",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/Project2/main.cpp",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/Project2/Makefile",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/Project2/heap.h",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/Project2/heap.cpp",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/User/C++.sublime-settings",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/Project2/debug.h",
+		"/Users/zpriddy/Dropbox/School Work/2013 ASU Fall 2013/CSE310/Project2/degub.cpp",
+		"/Users/zpriddy/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"CSE",
+			"pro",
+			"PWM",
+			"PWME\n\nPWME4",
+			"PWME",
+			"pwme4",
+			"ddrta",
+			"TTA",
+			"TA",
+			"MCF_PWM_PWMSCLA_SCALEA",
+			"gpio_pin_4",
+			"PIT_1",
+			"_",
+			" ",
+			"():",
+			"\\n",
+			"\";",
+			"\\n\";",
+			"\n",
+			"\\n\";",
+			"cout << \"",
+			"\\n\";",
+			"cout << \"",
+			";\n",
+			"HEAP_H",
+			"’",
+			"Incr",
+			"const",
+			".key",
+			"{\n",
+			".key",
+			"{\n",
+			".key",
+			"(element",
+			"element",
+			"(element",
+			"{\n",
+			"eleme",
+			"(element",
+			";\n",
+			"(element",
+			"element",
+			"if(i_heap.parent_has_two_children(element))\n        {\n            if(i_heap.get_left_child_element(element).key > i_heap.get_element(element).key && i_heap.get_right_child_element(element).key > i_heap.get_element(element).key)\n            {\n                if(i_heap.get_left_child_element(element).key > i_heap.get_right_child_element(element).key)\n                {\n                    element = i_heap.swap_with_left_child(element);\n                }\n                else\n                {\n                    element = i_heap.swap_with_right_child(element);\n                }\n\n            }\n            else if(i_heap.get_left_child_element(element).key > i_heap.get_element(element).key && i_heap.get_right_child_element(element).key < i_heap.get_element(element).key)\n            {\n                element = i_heap.swap_with_left_child(element);\n            }\n            else if(i_heap.get_right_child_element(element).key > i_heap.get_element(element).key && i_heap.get_left_child_element(element).key < i_heap.get_element(element).key)\n            {\n                element = i_heap.swap_with_right_child(element);\n            }\n            else\n            {\n                if(element == 1)\n                {\n                    if(i_heap.is_element(furthest_left_node+1))\n                        element = element + 1;\n                    else \n                        element = 3;\n\n                }\n                else\n                    element = i_heap.get_parent(element);\n            }\n\n\n        }\n        else if(i_heap.get_left_child_element(element).key > i_heap.get_element(element).key)\n        {\n            element = i_heap.swap_with_left_child(element);\n        }\n        else\n        {\n            if(element == 1)\n            {\n                if(i_heap.is_element(furthest_left_node+1))\n                    element = element + 1;\n                else \n                    element = 3;\n\n            }\n            else\n                element = i_heap.get_parent(element);\n        }\n    }\n    \n\n    i_heap.dec_size();\n\n    i_heap = new_heap;\n    //delete new_heap;\n    \n\n    //Return the element that was deleted\n    return return_element;\n}\n\n/******************************************************************************\n* FUNCTION: IncreaseKeyHeap(HEAP &i_heap, int element, int key)\n* \n* DESC: Sets the key of the inputd element# to the new key provied as key\n*\n* Calls:  InitializeHeap(Capacity)\n*         InsertToHeap(HEAP, Element)\n******************************************************************************/\nvoid IncreaseKeyHeap(HEAP &i_heap, int element, int key)\n{\n    //Set the element key\n    i_heap.set_element_key(element, key);\n    \n    //Re-order the heap\n    HEAP new_heap = InitializeHeap(i_heap.get_capacity());\n    for(int i=1; i <= i_heap.get_size() ; i++)\n    {\n        InsertToHeap(new_heap, i_heap.get_element(i));\n    }",
+			"element"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Project_Headers/oct_rgb_led.h",
+					"settings":
+					{
+						"buffer_size": 790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Sources/oct_rgb_led.c",
+					"settings":
+					{
+						"buffer_size": 3665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Sources/pwm.c",
+					"settings":
+					{
+						"buffer_size": 2573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2572,
+								2489
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Sources/pit.c",
+					"settings":
+					{
+						"buffer_size": 3328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2796,
+								2506
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"c_time": "cdatetime\ndatetime\np0\n(S'\\x07\\xdd\\x0b\\r\\x106\\x16\\x00\\x00\\x00'\np1\ntp2\nRp3\n.",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 170.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Project_Headers/pwm.h",
+					"settings":
+					{
+						"buffer_size": 1247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Projects_Includes/int.s",
+					"settings":
+					{
+						"buffer_size": 9930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1345,
+								1228
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/R/R.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.latex_log":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/zpriddy/Desktop/untitled.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

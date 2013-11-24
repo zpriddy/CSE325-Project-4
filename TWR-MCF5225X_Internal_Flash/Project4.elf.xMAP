@@ -1,0 +1,192 @@
+
+
+#>00001000          ___heap_size (linker command file)
+#>00001000          ___stack_size (linker command file)
+#>40000000          ___IPSBAR (linker command file)
+#>20000000          ___RAMBAR (linker command file)
+#>00010000          ___RAMBAR_SIZE (linker command file)
+#>00000000          ___FLASHBAR (linker command file)
+#>00080000          ___FLASHBAR_SIZE (linker command file)
+#>2000FFFC          ___SP_AFTER_RESET (linker command file)
+
+# .userram
+
+# .code
+
+# .vectorram
+
+# .vectors
+  00000000 00000400 .vectortable _vect	(exceptions_c.obj)
+
+# .cfmprotect
+  00000400 00000018 .cfmconfig _cfm	(cfm_c.obj)
+
+# .text
+  00000500 00000008 .text   __initialize_system	(startcf_c.obj)
+  00000508 0000006C .text   __copy_rom_section	(startcf_c.obj)
+  00000574 0000005C .text   __copy_rom_sections_to_ram	(startcf_c.obj)
+  000005D0 00000004 .text   _ExitProcess	(startcf_c.obj)
+  000005D4 0000022A .text   clear_mem	(startcf_c.obj)
+  000007FE 0000009A .text   _startup	(startcf_c.obj)
+  00000898 000000FA .text   @DummyFn1	(int_s.obj)
+  00000898 00000000 .text   int_config	(int_s.obj)
+  00000898 000000FA .text   .text	(int_s.obj)
+  000008DA 00000000 .text   int_inhibit_all	(int_s.obj)
+  000008F6 00000000 .text   int_mask_src	(int_s.obj)
+  0000093A 00000000 .text   int_unmask_src	(int_s.obj)
+  00000980 00000000 .text   int_uninhibit_all	(int_s.obj)
+  00000994 000000C4 .text   @DummyFn1	(gpt_s.obj)
+  00000994 000000C4 .text   .text	(gpt_s.obj)
+  00000994 00000000 .text   gpt_clr_flag	(gpt_s.obj)
+  000009B4 00000000 .text   gpt_disable	(gpt_s.obj)
+  000009C0 00000000 .text   gpt_enable	(gpt_s.obj)
+  000009D0 00000000 .text   gpt_incap_config	(gpt_s.obj)
+  00000A58 000000A4 .text   uc_pushb_init	(uc_pushb_c.obj)
+  00000AFC 00000062 .text   uc_pushb_debounce	(uc_pushb_c.obj)
+  00000B5E 0000003C .text   uc_pushb1_isr	(uc_pushb_c.obj)
+  00000B9A 0000003C .text   uc_pushb2_isr	(uc_pushb_c.obj)
+  00000BD6 00000020 .text   uc_dipsw_get_state	(uc_dipsw_c.obj)
+  00000BF6 00000062 .text   uc_dipsw_init	(uc_dipsw_c.obj)
+  00000C58 000001C4 .text   pwm_channel_init	(pwm_c.obj)
+  00000E1C 0000002E .text   pwm_channel_set_duty	(pwm_c.obj)
+  00000E4A 000000EC .text   pit_init	(pit_c.obj)
+  00000F36 00000008 .text   pit_pre_scale	(pit_c.obj)
+  00000F3E 00000028 .text   pit_debug	(pit_c.obj)
+  00000F66 00000028 .text   pit_overwrite	(pit_c.obj)
+  00000F8E 0000003A .text   pit_reload	(pit_c.obj)
+  00000FC8 0000003A .text   pit_clr_flg	(pit_c.obj)
+  00001002 0000003C .text   pit_disable	(pit_c.obj)
+  0000103E 0000003A .text   pit_enable	(pit_c.obj)
+  00001078 0000003A .text   pit_enable_int	(pit_c.obj)
+  000010B2 0000003A .text   pit_int_config_0	(pit_c.obj)
+  000010EC 0000003A .text   pit_int_config_1	(pit_c.obj)
+  00001126 0000002A .text   pit_reset	(pit_c.obj)
+  00001150 00000086 .text   pit_0_handler	(pit_c.obj)
+  000011D6 00000086 .text   pit_1_handler	(pit_c.obj)
+  0000125C 0000004C .text   oct_rgb_led_init	(oct_rgb_led_c.obj)
+  000012A8 00000026 .text   oct_rgb_led_all_off	(oct_rgb_led_c.obj)
+  000012CE 0000001A .text   oct_rgb_led_on	(oct_rgb_led_c.obj)
+  000012E8 0000001A .text   oct_rgb_led_off	(oct_rgb_led_c.obj)
+  00001302 00000040 .text   oct_rgb_led_toggle	(oct_rgb_led_c.obj)
+  00001342 00000172 .text   oct_rgb_set_color	(oct_rgb_led_c.obj)
+  000014B4 0000003C .text   pb1_callback	(main_c.obj)
+  000014F0 00000010 .text   pb2_callback	(main_c.obj)
+  00001500 00000070 .text   pit0_callback	(main_c.obj)
+  00001570 000001A0 .text   pit1_callback	(main_c.obj)
+  00001710 00000086 .text   hw_init	(main_c.obj)
+  00001796 00000182 .text   config_mode	(main_c.obj)
+  00001918 00000048 .text   run	(main_c.obj)
+  00001960 00000010 .text   main	(main_c.obj)
+  00001970 00000038 .text   gpio_port_get_pin_state	(gpio_c.obj)
+  000019A8 00000258 .text   gpio_port_init	(gpio_c.obj)
+  00001C00 00000058 .text   gpio_port_set_pin_state	(gpio_c.obj)
+  00001C58 00000200 .text   mcf_exception_handler	(exceptions_c.obj)
+  00001E58 00000020 .text   asm_exception_handler	(exceptions_c.obj)
+  00001E78 00000008 .text   mcf5xxx_wr_vbr	(exceptions_c.obj)
+  00001E80 00000062 .text   initialize_exceptions	(exceptions_c.obj)
+  00001EE2 0000002C .text   dtim0_busy_delay_ms	(dtim_c.obj)
+  00001F0E 00000056 .text   dtim0_busy_delay_us	(dtim_c.obj)
+  00001F64 00000052 .text   dtim0_init	(dtim_c.obj)
+  00001FB6 00000020 .text   pll_init	(TWR-MCF5225X_sysinit_c.obj)
+  00001FD6 00000022 .text   scm_init	(TWR-MCF5225X_sysinit_c.obj)
+  00001FF8 0000003E .text   __initialize_hardware	(TWR-MCF5225X_sysinit_c.obj)
+  00002036 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
+  00002052 0000002C .text   __destroy_global_chain	(librt.a cf_staticinitia)
+  0000207E 0000000C .text   _ewl_exit	(librt.a abort_exit.o   )
+#>0000208C          ___ROM_AT (linker command file)
+#>0000208C          ___DATA_ROM (linker command file)
+
+# .data
+#>20000400          ___DATA_RAM (linker command file)
+#>20000400          __exception_table_start__ (linker command file)
+# Exception index
+  20000400 00000000         Exception Table Index	()
+#>20000400          __exception_table_end__ (linker command file)
+#>20000400          ___sinit__ (linker command file)
+# Linker generated symbols
+  20000400 00000004         static initializer	(linker generated)
+#>20000404          __START_DATA (linker command file)
+  20000404 00000004 .data   BLUE_RGB_R	(oct_rgb_led_c.obj)
+  20000408 00000004 .data   BLUE_RGB_G	(oct_rgb_led_c.obj)
+  2000040C 00000004 .data   BLUE_RGB_B	(oct_rgb_led_c.obj)
+  20000410 00000004 .data   GREEN_RGB_R	(oct_rgb_led_c.obj)
+  20000414 00000004 .data   GREEN_RGB_G	(oct_rgb_led_c.obj)
+  20000418 00000004 .data   GREEN_RGB_B	(oct_rgb_led_c.obj)
+  2000041C 00000004 .data   INDIGO_RGB_R	(oct_rgb_led_c.obj)
+  20000420 00000004 .data   INDIGO_RGB_B	(oct_rgb_led_c.obj)
+  20000424 00000004 .data   RED_RGB_R	(oct_rgb_led_c.obj)
+  20000428 00000004 .data   RED_RGB_G	(oct_rgb_led_c.obj)
+  2000042C 00000004 .data   RED_RGB_B	(oct_rgb_led_c.obj)
+  20000430 00000004 .data   ORANGE_RGB_R	(oct_rgb_led_c.obj)
+  20000434 00000004 .data   ORANGE_RGB_G	(oct_rgb_led_c.obj)
+  20000438 00000004 .data   VIOLET_RGB_R	(oct_rgb_led_c.obj)
+  2000043C 00000004 .data   VIOLET_RGB_G	(oct_rgb_led_c.obj)
+  20000440 00000004 .data   VIOLET_RGB_B	(oct_rgb_led_c.obj)
+  20000444 00000004 .data   WHITE_RGB_R	(oct_rgb_led_c.obj)
+  20000448 00000004 .data   WHITE_RGB_G	(oct_rgb_led_c.obj)
+  2000044C 00000004 .data   WHITE_RGB_B	(oct_rgb_led_c.obj)
+  20000450 00000004 .data   YELLOW_RGB_R	(oct_rgb_led_c.obj)
+  20000454 00000004 .data   YELLOW_RGB_G	(oct_rgb_led_c.obj)
+  20000458 00000003 .data   RGB_LED_PIN	(main_c.obj)
+#>2000045C          __END_DATA (linker command file)
+#>2000045C          __START_SDATA (linker command file)
+#>2000045C          __END_SDATA (linker command file)
+#>2000045C          ___DATA_END (linker command file)
+#>2000045C          __SDA_BASE (linker command file)
+
+# .bss
+#>2000045C          ___BSS_START (linker command file)
+#>2000045C          __START_SBSS (linker command file)
+#>2000045C          __END_SBSS (linker command file)
+#>2000045C          __START_BSS (linker command file)
+  2000045C 00000004 .bss    g_pb1_callback	(uc_pushb_c.obj)
+  20000460 00000004 .bss    g_pb2_callback	(uc_pushb_c.obj)
+  20000464 00000004 .bss    g_timer0_callback	(pit_c.obj)
+  20000468 00000004 .bss    g_timer1_callback	(pit_c.obj)
+  2000046C 00000004 .bss    toggle	(oct_rgb_led_c.obj)
+  20000470 00000004 .bss    INDIGO_RGB_G	(oct_rgb_led_c.obj)
+  20000474 00000004 .bss    ORANGE_RGB_B	(oct_rgb_led_c.obj)
+  20000478 00000004 .bss    YELLOW_RGB_B	(oct_rgb_led_c.obj)
+  2000047C 0000000C .bss    LEDS	(main_c.obj)
+  20000488 00000004 .bss    dipsw	(main_c.obj)
+  2000048C 0000000C .bss    LED_ON_SET	(main_c.obj)
+  20000498 00000004 .bss    CONFIG	(main_c.obj)
+  2000049C 00000004 .bss    RGB_LED_CONFIG	(main_c.obj)
+  200004A0 00000004 .bss    RGB_LED	(main_c.obj)
+  200004A4 00000004 .bss    LED_ON_COUNT	(main_c.obj)
+  200004A8 00000004 .bss    LED_DIR	(main_c.obj)
+  200004AC 00000004 .bss    __global_destructor_chain	(librt.a cf_staticinitia)
+#>200004B0          __END_BSS (linker command file)
+#>200004B0          ___BSS_END (linker command file)
+
+# .custom
+#>200004B0          ___HEAP_START (linker command file)
+#>200004B0          ___heap_addr (linker command file)
+#>200014B0          ___HEAP_END (linker command file)
+#>200014B0          ___SP_END (linker command file)
+#>200024B0          ___SP_INIT (linker command file)
+#>20000000          ___VECTOR_RAM (linker command file)
+#>200024B0          __SP_INIT (linker command file)
+#>200014B0          ___mem_limit (linker command file)
+#>00000010          ___stack_safety (linker command file)
+#>000020E8          _romp_at (linker command file)
+
+# .romp
+#>000020E8          __S_romp (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  00000000 00000000 00000400 .vectors   vectorrom
+  00000400 00000400 00000018 .cfmprotect cfmprotrom
+  00000500 00000500 00000000 .code      code
+  00000500 00000500 00001B8C .text      code
+  20000000 20000000 00000000 .vectorram vectorram
+  20000400 20000400 00000000 .userram   userram
+  20000400 0000208C 0000005C .data      userram
+  2000045C 2000045C 00000054 .bss       userram
+  200004B0 200004B0 00000000 .custom    userram
+  200004B0 000020E8 00000018 .romp      userram
+
+# Link start time: Tue Oct 29 13:56:46 2013
+# Link end time: Tue Oct 29 13:56:47 2013
